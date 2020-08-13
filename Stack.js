@@ -9,19 +9,19 @@ class Stack{
         this.elements.pop()
     }
     length(){
-        this.elements.length
+        return this.elements.length
     }
     isEmpty(){
-        this.elements.isEmpty
+        return this.elements.length===0?true:false
     }
 }
 
 // Uncomment the following code to see the results
-/*
+
  let newStack = new Stack()
 newStack.push("YO")
-console.log(newStack.content);
-newStack.length()
+console.log(newStack.elements);
+console.log(newStack.length())
 newStack.pop()
-console.log(newStack.content); 
-*/
+console.log(newStack.elements); 
+console.log(newStack.isEmpty())
