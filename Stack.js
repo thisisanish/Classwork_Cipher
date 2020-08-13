@@ -17,11 +17,12 @@ class Stack{
 }
 
 // Uncomment the following code to see the results
-
- let newStack = new Stack()
+/* 
+let newStack = new Stack()
 newStack.push("YO")
 console.log(newStack.elements);
 console.log(newStack.length())
 newStack.pop()
 console.log(newStack.elements); 
 console.log(newStack.isEmpty())
+ */
